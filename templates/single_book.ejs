@@ -1,0 +1,37 @@
+<div class="library">
+
+    <input id="book_id" class="hidden" value="<%= singleBook.id %>"/>
+    <div class="back">
+        <a href="index.html">Back to all books</a>
+    </div>
+
+    <div class="single_container clearfix">
+
+        <div class="book_img left">
+            <img src="img/<%= singleBook.img %>.jpg">
+        </div>
+
+        <div class="left ">
+            <div class="single_details clearfix">
+                <div class=""><span>Title:</span><span><%= singleBook.name %></span></div>
+                <div class=""><span>Author:</span><span><%= singleBook.author %></span></div>
+                <div class=""><span>Year:</span><span><%= singleBook.year %></span></div>
+                <div class=""><span>Publisher:</span><span><%= singleBook.publisher %></span></div>
+                <div class=""><span>Pages:</span><span><%= singleBook.pages %></span></div>
+                <div class=""><span>Quantity:</span><span><%= singleBook.quantity %></span></div>
+            </div>
+        </div>
+
+        <div class="order_form_wrapper left">
+            <div class="show_more">
+                <% if(singleBook.quantity > 0){ %>
+                    <p>You can rent this book.</p>
+                    <button type="button" id="rent_form_btn" class="rent_book" onclick="showBookForm()">Show form</button></div>
+                <% } else {%>
+                 <p>You can't rent this book.</p>
+                 <%} %>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,282 @@
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+body {
+    font-family: OpenSans;
+    font-size: 13px;
+}
+.block {
+    display: block;
+}
+.w100p {
+    width: 100%;
+}
+.w90p {
+    width: 90%;
+}
+.w85p {
+    width: 85%;
+}
+.w80p {
+    width: 80%;
+}
+.w75p {
+    width: 75%;
+}
+.w70p {
+    width: 70%;
+}
+.w60p {
+    width: 60%;
+}
+.w65p {
+    width: 65%;
+}
+.w50p {
+    width: 50%;
+}
+.w47p {
+    width: 47%;
+}
+.w46p {
+    width: 46%;
+}
+.w45p {
+    width: 45%;
+}
+.w40p {
+    width: 40%;
+}
+.w35p {
+    width: 35%;
+}
+.w33p {
+    width: 33.33%;
+}
+.w30p {
+    width: 30%;
+}
+.w25p {
+    width: 25%;
+}
+.w20p {
+    width: 20%;
+}
+.w15p {
+    width: 15%;
+}
+.w12p {
+    width: 12%;
+}
+.w10p {
+    width: 10%;
+}
+.w5p {
+    width: 5%;
+}
+.no-display {
+    display: none;
+}
+button,select {
+    cursor: pointer;
+}
+input:focus {
+    outline-width: 0;
+}
+.hidden {
+    visibility: hidden;
+}
+.text-center {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #436262;
+    font-size: 3em;
+}
+
+#content {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+#main_container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #77c9d1;
+}
+.book_list_header {
+    border: 2px solid #e1eaea;
+    font-size: 1.5em;
+    color: #e1eaea;
+    background-color: #436262;
+}
+.book_list_header > div {
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: .5s linear;
+    -ms-transition: .5s linear;
+    transition: .5s linear;
+}
+.book_list_header > div:hover {
+    background-color: #728883;
+}
+.line-view {
+    font-size: 1.5em;
+    color: #385858;
+    cursor: pointer;
+}
+.line-view > div  {
+    padding: 5px 10px;
+}
+.line-view:hover {
+    background-color: #436262;
+    color: #e1eaea;
+    -webkit-transition: background-color.5s linear;
+    -ms-transition: background-color .5s linear;
+    transition: background-color.5s linear;
+}
+.back {
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+.back a {
+    color: #385858;
+}
+.back a:hover {
+    color: #ffffff;
+}
+#search_form {
+    text-align: right;
+    margin: 30px 0;
+}
+#search_form select {
+    width: 130px;
+}
+#search_form select,
+#search_form input {
+    font-size: 1.1em;
+    height: 30px;
+    color: #385858;
+    padding: 5px 10px;
+    border: 1px solid #385858;
+    -webkit-transition: .5s linear;
+    -ms-transition: .5s linear;
+    transition: .5s linear;
+}
+.no_found_msg {
+    color: #385858;
+    font-size: 2em;
+    text-align: center;
+}
+.book_img img {
+    border: 1px solid #385858;
+}
+.single_container > div {
+    padding: 15px;
+}
+.single_details {
+    font-size: 1.5em;
+    color: #385858;
+}
+.single_details > div {
+    margin: 10px 0;
+}
+.single_details > div:first-child {
+    margin-top: 0;
+}
+
+#order_form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+#order_form input {
+    display: block;
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #385858;
+}
+.rent_book {
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    color: #385858;
+    font-size: 1.3em;
+    background-color: #b0cbc6;
+    border: 1px solid #385858;
+    -webkit-transition: .3s linear;
+    -ms-transition: .3s linear;
+    transition: .3s linear;
+}
+.rent_book:hover {
+    color: #ffffff;
+    background-color: #385858;
+}
+.show_more p {
+    font-size: 1.5em;
+    color: #385858;
+}
+.error  {
+    color: #a30000;
+    font-size: 1.2em;
+}
+.rent_details > div {
+    padding: 15px 0;
+}
+.rent_details h3 {
+    font-size: 1.6em;
+    color: #385858;
+}
+.rent_details span {
+    font-size: 1.3em;
+    color: #385858;
+}
+@media (max-width: 680px) {
+   .book_year,
+   .year {
+       display: none;
+   }
+}
+@media (max-width: 450px) {
+    .book_publisher,
+    .publisher {
+        display: none;
+    }
+    .book_author,
+    .book_name,
+    .title,
+    .author {
+        width: 50%;
+    }
+    #search_form select,
+    #search_form input {
+        margin: 10px 0;
+
+    }
+}
+

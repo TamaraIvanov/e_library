@@ -1,0 +1,265 @@
+{
+  "library": [
+    {
+      "id" : 1,
+      "name": "Vektor Trido",
+      "author": "Juri Jurjevic",
+      "publisher": "Altera",
+      "year": 2014,
+      "pages": 448,
+      "quantity": 0,
+      "img": "vektor_trido"
+    },
+    {
+      "id" : 2,
+      "name": "I See You",
+      "author": "Clare Mackintosh",
+      "publisher": "Laguna",
+      "year": 2017,
+      "pages": 384,
+      "quantity": 17,
+      "img": "I_see_you"
+    },
+    {
+      "id" : 3,
+      "name": "The Woman in the Woods",
+      "author": "John Connolly",
+      "publisher": "Beostar",
+      "year": 2018,
+      "pages": 480,
+      "quantity": 15,
+      "img": "women_in_the_wood"
+    },
+    {
+      "id" : 4,
+      "name": "The Furthest Station",
+      "author": "Ben Aaronovitch",
+      "publisher": "Albatros",
+      "year": 2018,
+      "pages": 144,
+      "quantity": 12,
+      "img": "the_futhure_station"
+    },
+    {
+      "id" : 5,
+      "name": "Perfect Remains",
+      "author": "Helen Fields",
+      "publisher": "Ethos",
+      "year": 2017,
+      "pages": 170,
+      "quantity": 24,
+      "img": "Perfect_Remains"
+    },
+    {
+      "id" : 6,
+      "name": "Tonics & Teas",
+      "author": "Rachel de Thample",
+      "publisher": "Beostar",
+      "year": 2012,
+      "pages": 215,
+      "quantity": 18,
+      "img": "tonic&teas"
+    },
+    {
+      "id" : 7,
+      "name": "The Book of Tea",
+      "author": "Kakuzo Okakura",
+      "publisher": "Feniks Libris",
+      "year": 2005,
+      "pages": 180,
+      "quantity": 16,
+      "img": "the_book_of_tea"
+    },
+    {
+      "id" : 8,
+      "name": "The Clever Guts Diet",
+      "author": "Michael Mosley",
+      "publisher": "Albatros",
+      "year": 2007,
+      "pages": 190,
+      "quantity": 14,
+      "img": "the_clever_guts_diet"
+    },
+    {
+      "id" : 9,
+      "name": "The Heart of Yoga",
+      "author": "T. K. V. Desikachar",
+      "publisher": "Laguna",
+      "year": 2007,
+      "pages": 150,
+      "quantity": 9,
+      "img": "the_haert_of_yoga"
+    },
+    {
+      "id" : 10,
+      "name": "When Breath Becomes Air",
+      "author": "Paul Kalanithi",
+      "publisher": "Beostar",
+      "year": 2012,
+      "pages": 230,
+      "quantity": 14,
+      "img": "When_Breath_Becomes_Air"
+    },
+    {
+      "id" : 11,
+      "name": "The Wonder Weeks",
+      "author": "Hetty van de Rijt",
+      "publisher": "Feniks Libris",
+      "year": 2008,
+      "pages": 190,
+      "quantity": 19,
+      "img": "the_wounder_weeks"
+    },
+    {
+      "id" : 12,
+      "name": "The Body Keeps the Score",
+      "author": "Bessel A. van der Kolk",
+      "publisher": "Ethos",
+      "year": 2000,
+      "pages": 310,
+      "quantity": 25,
+      "img": "the_body_keeps_the_score"
+    },
+    {
+      "id" : 13,
+      "name": "Ocean Worlds",
+      "author": "Jan Zalasiewicz",
+      "publisher": "Galaksija",
+      "year": 1995,
+      "pages": 280,
+      "quantity": 21,
+      "img": "ocean_worlds"
+    },
+    {
+      "id" : 14,
+      "name": "Legacy",
+      "author": "James Kerr",
+      "publisher": "Beostar",
+      "year": 1992,
+      "pages": 280,
+      "quantity": 26,
+      "img": "legacy"
+    },
+    {
+      "id" : 15,
+      "name": "A Higher Loyalty",
+      "author": "James Comey",
+      "publisher": "Feniks Libris",
+      "year": 1998,
+      "pages": 390,
+      "quantity": 25,
+      "img": "A_Higher_Loyalty"
+    },
+    {
+      "id" : 16,
+      "name": "The Pearl Sister",
+      "author": "Lucinda Riley",
+      "publisher": "Albatros",
+      "year": 2011,
+      "pages": 290,
+      "quantity": 23,
+      "img": "The_Pearl_Sister"
+    },
+    {
+      "id" : 17,
+      "name": "The Course of Love",
+      "author": "Alain de Botton",
+      "publisher": "Galaksija",
+      "year": 2002,
+      "pages": 380,
+      "quantity": 14,
+      "img": "The_Course_of_Love"
+    },
+    {
+      "id" : 18,
+      "name": "Rescue Pilot",
+      "author": "Jerry Grayson",
+      "publisher": "Grafos",
+      "year": 1992,
+      "pages": 275,
+      "quantity": 17,
+      "img": "Rescue_Pilot"
+    },
+    {
+      "id" : 19,
+      "name": "Every Note Played",
+      "author": "Lisa Genova",
+      "publisher": "Kontrast",
+      "year": 1996,
+      "pages": 236,
+      "quantity": 14,
+      "img": "Every_Note_Played"
+    },
+    {
+      "id" : 20,
+      "name": "Lonely Planet Japan",
+      "author": "Lonely Planet",
+      "publisher": "Grafos",
+      "year": 1993,
+      "pages": 276,
+      "quantity": 16,
+      "img": "japan"
+    },
+    {
+      "id" : 21,
+      "name": "Homo Deus",
+      "author": "Yuval Noah Harari",
+      "publisher": "Galaksija",
+      "year": 1990,
+      "pages": 346,
+      "quantity": 20,
+      "img": "Homo_Deus"
+    },
+    {
+      "id" : 22,
+      "name": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "publisher": "Kontrast",
+      "year": 1994,
+      "pages": 230,
+      "quantity": 14,
+      "img": "Thinking_Fast_and_Slow"
+    },
+    {
+      "id" : 23,
+      "name": "Herding Cats",
+      "author": "Sarah Andersen",
+      "publisher": "Beostar",
+      "year": 2003,
+      "pages": 420,
+      "quantity": 9,
+      "img": "Herding_Cats"
+    },
+    {
+      "id" : 24,
+      "name": "Does It Fart?",
+      "author": "Dani Rabaiotti",
+      "publisher": "Albatros",
+      "year": 2007,
+      "pages": 260,
+      "quantity": 0,
+      "img": "Does_It_Fart"
+    },
+    {
+      "id" : 25,
+      "name": "Treasury of Humour",
+      "author": "Isaac Asimov",
+      "publisher": "Kontrast",
+      "year": 2004,
+      "pages": 270,
+      "quantity": 12,
+      "img": "Treasury_of_Humour"
+    },
+    {
+      "id" : 26,
+      "name": "Plant Style",
+      "author": "Alana Langan",
+      "publisher": "Grafos",
+      "year": 2001,
+      "pages": 310,
+      "quantity": 8,
+      "img": "plant_style"
+    }
+  ]
+}
+

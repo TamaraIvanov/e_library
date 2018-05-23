@@ -1,0 +1,39 @@
+<div class="library">
+    <h1>E-library</h1>
+    <form id="search_form">
+        <select id="selectBox">
+            <option value="name">Name</option>
+            <option value="author">Author</option>
+            <option value="publisher">Publisher</option>
+        </select>
+        <input id="search_value" type="text" placeholder="Search..." onkeyup="searchBook()" title=""/>
+    </form>
+
+    <div id="books" class="book_list_header clearfix">
+        <div class="book_name book_property left w35p" onClick ="sortBooks('name')"><span>Book title</span></div>
+        <div class="book_author book_property left w35p" onClick ="sortBooks('author')"><span>Author</span></div>
+        <div class="book_year book_property left w10p" onClick ="sortBooks('year')"><span>Year</span></div>
+        <div class="book_publisher book_property left w20p" onClick ="sortBooks('publisher')"><span>Publisher</span></div>
+    </div>
+
+    <%
+    if(search) {%>
+        <div class="back">
+            <a href="index.html">Back to all books</a>
+        </div>
+        <% }
+    if(data.length) {
+        data.forEach(function(book) { %>
+            <div class="line-view clearfix" onclick="singleViewBook(<%= book.id %>)">
+                <div class="title left w35p"><span><%= book.name %></span></div>
+                <div class="author left w35p"><span><%= book.author %></span></div>
+                <div class="year left w10p"><span><%= book.year %></span></div>
+                <div class="publisher left w20p"><span><%= book.publisher %></span></div>
+            </div>
+        <% });
+    } else { %>
+        <p class="no_found_msg">No results found</p>
+    <% } %>
+
+</div>
+
